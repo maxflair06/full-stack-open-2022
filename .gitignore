@@ -39,3 +39,4 @@ jspm_packages
 
 # My gitignore 
 _temp/
+.DS_Store
