@@ -1,8 +1,6 @@
 import { useState } from "react";
 
 const MostVotes = ({ vote, anecdotes }) => {
-  console.log(vote);
-
   const arr = Object.values(vote);
   const max = Math.max(...arr);
   const index = arr.indexOf(max);
